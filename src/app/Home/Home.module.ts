@@ -2,20 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './Navbar/Navbar.component';
-import { HomeComponent } from './Home/Home.component'
+import { AppComponent } from '../app.component';
+import { NavbarComponent } from '../Navbar/Navbar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    HomeComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot()
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class HomeModule { }
