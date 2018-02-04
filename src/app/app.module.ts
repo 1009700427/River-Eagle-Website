@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './Navbar/Navbar.component';
+import { NavbarComponent } from './Components/Navbar/Navbar.component';
 import { HomeComponent } from './Home/Home.component';
 import { ChannelComponent } from './Channel/Channel.component';
 import { AboutUsComponent } from './AboutUs/AboutUs.component';

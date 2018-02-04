@@ -2,13 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AppComponent } from '../app.component';
-import { NavbarComponent } from '../Components/Navbar/Navbar.component';
+import { AppComponent } from './app.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent
+
   ],
   imports: [
     BrowserModule,
@@ -17,4 +16,6 @@ import { NavbarComponent } from '../Components/Navbar/Navbar.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class HomeModule { }
+export class ChannelChoiceModule {
+
+}
