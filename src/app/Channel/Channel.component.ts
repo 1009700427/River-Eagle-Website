@@ -23,7 +23,7 @@ export class ChannelComponent {
       // In a real app: dispatch action to load the details here.
       var channel = this.channelList[this.index];
       this.description = channel.description;
-      this.videoLink = channel.link; 
+      this.videoLink = channel.link;
       this.name = channel.name;
       console.log(this.videoLink);
       var that = this;
