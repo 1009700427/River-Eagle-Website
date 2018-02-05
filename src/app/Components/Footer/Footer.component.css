@@ -1,0 +1,11 @@
+a {
+  display: inline;
+}
+.container-fluid{
+  text-align: center;
+}
+.links{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  text-align: center;
+}

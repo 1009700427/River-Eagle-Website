@@ -11,26 +11,33 @@ import { AboutUsComponent } from './AboutUs/AboutUs.component';
 import { ContactUsComponent } from './ContactUs/ContactUs.component';
 import { ProductStoreComponent } from './ProductStore/ProductStore.component';
 import { PlatinumComponent } from './Platinum/Platinum.component';
+import {ChannelChoiceComponent} from "./Components/ChannelChoice/ChannelChoice.component";
+import { FooterComponent } from './Components/Footer/Footer.component';
+import { TermsComponent } from './Terms/Terms.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    ChannelChoiceComponent,
     ChannelComponent,
     AboutUsComponent,
     ContactUsComponent,
     ProductStoreComponent,
-    PlatinumComponent
+    PlatinumComponent,
+    FooterComponent,
+    TermsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'channel', component: ChannelComponent },
-      { path: 'about-us', component: AboutUsComponent }
+      { path: 'about-us', component: AboutUsComponent },
       { path: 'contact-us', component: ContactUsComponent },
       { path: 'product-store', component: ProductStoreComponent },
-      { path: 'platinum', component: PlatinumComponent }
+      { path: 'platinum', component: PlatinumComponent },
+      { path: 'terms', component: TermsComponent }
     ]),
     NgbModule.forRoot()
   ],

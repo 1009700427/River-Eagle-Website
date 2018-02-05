@@ -1,0 +1,10 @@
+.channel-choice{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.choice-button{
+  margin: 0.9%;
+}

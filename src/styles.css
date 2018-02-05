@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/animate.css/animate.css";
+
+body{
+  background-color: white;
+}
+html, body{
+  height: 100%;
+  margin: 0;
+}
