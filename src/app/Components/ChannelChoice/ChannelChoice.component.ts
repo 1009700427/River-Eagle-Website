@@ -95,8 +95,5 @@ export class ChannelChoiceComponent {
       name: 'Delta Airlines Commercial Ads',
       link: "#"
     }
-
-
-
   ];
 }

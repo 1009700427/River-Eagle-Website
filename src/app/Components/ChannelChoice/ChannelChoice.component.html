@@ -1,3 +1,5 @@
 <div class="d-inline-block animated bounceInLeft channel-choice" ngbDropdown #myDrop="ngbDropdown">
-  <button class="btn btn-outline-primary choice-button" *ngFor="let channel of channelList">{{channel.name}}</button>
+  <button class="btn btn-outline-primary choice-button" *ngFor="let channel of channelList; let i = index" [attr.data-index]="i" value="{{i}}"
+          ng-click=""
+  >{{channel.name}}</button>
 </div>
