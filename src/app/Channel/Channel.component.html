@@ -3,7 +3,7 @@
   <channel-choice></channel-choice>
   <h2 style="text-align: center; LINE-HEIGHT:150%">{{name}}</h2>
   <h5 style="text-align: center; LINE-HEIGHT:150%">{{description}}</h5><br/>
-  <div class="video-player" *ngIf="videoLink.length!=0">
+  <div class="video-player" *ngIf="videoLink!=undefined && videoLink.length!=0">
     <video width="400" controls class="center" id="player">
       <source src="{{videoLink[0]}}" type="video/mp4">
       Your browser does not support HTML5 video.

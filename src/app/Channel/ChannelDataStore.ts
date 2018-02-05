@@ -2,22 +2,18 @@
  * Created by siyuanxu on 2/4/18.
  */
 
-var channelList = {
-
-};
-
-module.exports = {
-  getChannelList: function (){
+export default class getChannelList {
+  getChannelList(){
     var channelList = [
       {
-      name: 'Sports Channel',
+        name: 'Sports Channel',
         description: "Welcome to RiverEagle.tv! On this channel you will enjoy the best of our premium content relating to sporting events; athletic training workouts and disciplines; player profiles and interviews; special sporting event attractions; fan-based contests; and various live sports broadcasts for your enjoyment and viewing pleasure. You’ll be able to see everything from pro sports highlights, youth sports, sporting news and one-of-a-  kind history making elements of the sporting world! And, home of the: “I FEEL THE NEED FOR SPEED” – Invitational Sprinters Championship, held during the month of May each year! Stay tuned for much more exciting new “content” to be added soon!",
         link: [
           "./assets/videos/Sports/1.mp4",
           "./assets/videos/Sports/2.mp4",
           "./assets/videos/Sports/3.mp4"
         ]
-    },
+      },
       {
         name: 'Food Channel',
         description: "Welcome to RiverEagle.tv! On this channel you will enjoy the best of our premium content relating to featured restaurants, where you will receive recommendations on where to find and experience exceptional fine-dining and amazing customer service experiences. Here, great recipes await you! Meet and learn from top chefs from around the world! We’ll also be showcasing unique mouth-watering recipes from some of our amazingly creative “RiverEagle.tv” viewers each month as well. Stay tuned for much more exciting new “content” to be added soon!",
@@ -94,7 +90,7 @@ module.exports = {
         name: 'News Channel',
         description: "Welcome to RiverEagle.tv! On this channel you will enjoy the best of our premium content relating to today’s news-makers, game-changers, innovators, content creators, world-leaders, and digital media entertainment. Stay tuned for much more exciting new “content” to be added soon!",
         link: [
-            // not a video
+          // not a video
         ]
       },
       {
@@ -186,7 +182,8 @@ module.exports = {
         description: "",
         link: []
       }
-      ];
-      return channelList;
+    ];
+    return channelList;
   }
-};
+}
+export {channelList};
