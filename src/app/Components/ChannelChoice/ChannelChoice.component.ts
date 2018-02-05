@@ -2,13 +2,20 @@
  * Created by siyuanxu on 2/4/18.
  */
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'channel-choice',
   templateUrl: './ChannelChoice.component.html',
   styleUrls: ['./ChannelChoice.component.css']
 })
 export class ChannelChoiceComponent {
+  constructor(private router: Router){
+
+  }
+  btnClick= function (i) {
+    this.router.navigate(['/channel',i]);
+  };
+
   channelList = [
     {
       name: 'Sports Channel',

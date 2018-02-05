@@ -1,1 +1,17 @@
-STILL WORKING ON CHANNELS
+<nav-bar></nav-bar>
+<div class="container animated bounceInLeft">
+  <channel-choice></channel-choice>
+  <h2 style="text-align: center; LINE-HEIGHT:150%">{{name}}</h2>
+  <h5 style="text-align: center; LINE-HEIGHT:150%">{{description}}</h5><br/>
+  <div class="video-player" *ngIf="videoLink.length!=0">
+    <video width="400" controls class="center" id="player">
+      <source src="{{videoLink[0]}}" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="video-list">
+      <button class="btn btn-outline-primary choice-button" *ngFor="let video of videoLink let i = index" [attr.data-index]="i" value="{{i}}"
+              (click)="btnClick(i)"
+      >Video {{i}}</button><br/>
+    </div>
+  </div>
+</div>

@@ -32,7 +32,7 @@ import { TermsComponent } from './Terms/Terms.component';
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'channel', component: ChannelComponent },
+      { path: 'channel/:index', component: ChannelComponent },
       { path: 'about-us', component: AboutUsComponent },
       { path: 'contact-us', component: ContactUsComponent },
       { path: 'product-store', component: ProductStoreComponent },
