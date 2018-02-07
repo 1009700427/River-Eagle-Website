@@ -97,10 +97,6 @@ export class ChannelChoiceComponent {
     },{
       name: 'Java Love International Channel',
       link: "#"
-    },
-    {
-      name: 'Delta Airlines Commercial Ads',
-      link: "#"
     }
   ];
 }

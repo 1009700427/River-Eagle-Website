@@ -206,11 +206,6 @@ export class ChannelComponent {
     link: [
       "./assets/videos/Java Love International/1.mp4"
     ]
-  },
-  {
-    name: 'Delta Airlines Commercial Ads',
-    description: "",
-    link: []
   }
-];
+  ];
 }

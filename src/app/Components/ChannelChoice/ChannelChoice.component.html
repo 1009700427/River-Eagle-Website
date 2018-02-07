@@ -1,3 +1,6 @@
-<div class="d-inline-block animated bounceInLeft channel-choice" ngbDropdown #myDrop="ngbDropdown">
+<div style="position: relative; min-width: 100%">
+  <button type="button" class="btn btn-primary btn-lg" style="position: absolute; top: 35%; float: left">Select TV Channels Here</button>
+  <div class="d-inline-block animated bounceInLeft channel-choice" ngbDropdown #myDrop="ngbDropdown">
     <button class="btn btn-outline-primary choice-button" *ngFor="let channel of channelList; let i = index" [attr.data-index]="i" value="{{i}}" (click)="btnClick(i)">{{channel.name}}</button>
+  </div>
 </div>

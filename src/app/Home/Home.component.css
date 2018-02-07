@@ -1,20 +1,86 @@
 .logo-pic{
   display: block;
-  width: 33%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 10%;
 }
-h3{
+.full-size-logo{
+  width: 20%;
+}
+h1, h3{
   text-align: center;
+  margin: 1px;
+}
+.second-line {
+  color: mediumpurple;
 }
 .full-screen{
   max-height: 100%;
   min-height: 100%;
 }
 .second-full-screen{
+  text-align: center;
   margin: auto;
-  max-width: 30%;
+  max-width: 100%;
   max-height: 75%;
+}
+.second-full-screen video {
+  width: 100%;
+  display: inline-block; vertical-align: middle; horiz-align: middle;
+}
+.second-video{
+  position: relative;
+  margin: auto;
+  max-width: 100%;
+  max-height: 75%;
+  padding: 0;
+}
+.second-video video {
+  width: 50%
+}
+.half-size-pic{
+  display: block;
+  max-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;;
+}
+.flyer-class{
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  max-height: 75%;
+}
+.flyer-class img{
+  width: 50%;
+}
+.narrative {
+  text-align: center;
+  font-size: 20px;
+}
+.hr-line{
+  display: block;
+  height: 10px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  border-color: mediumpurple;
+  background-color: mediumpurple;
+  color: mediumpurple;
+}
+.sponsor {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.sponsor img{
+  max-width: 8%;
+  text-align: center;
+}
+.brand-title{
+  text-align: center;
+  font-size: 25px;
+}
+.for-image {
+  position: relative;
 }
